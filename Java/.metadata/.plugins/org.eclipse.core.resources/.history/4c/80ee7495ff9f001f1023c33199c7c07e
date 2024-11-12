@@ -1,0 +1,10 @@
+package com.java.oops.compositionchallenge;
+
+public class Refrigerator {
+
+	boolean hasWorkToDo;
+	
+	 public void orderFood(){
+		
+	}
+}

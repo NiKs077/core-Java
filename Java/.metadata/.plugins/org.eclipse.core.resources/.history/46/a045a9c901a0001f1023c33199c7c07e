@@ -1,0 +1,11 @@
+package com.java.oops.compositionchallenge;
+
+public class DishWasher {
+
+	boolean hasWorkToDo;
+	
+	
+	private void doDishesh() {
+		
+	}
+}

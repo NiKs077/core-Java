@@ -1,0 +1,13 @@
+package com.java.oops.compositionchallenge;
+
+public class CoffeeMaker {
+
+	boolean hasWorkToDo;
+	
+	public  void brewCofee() {
+		if(this.hasWorkToDo) System.out.println("preparing the cofee");
+	}
+	public boolean getWorkToDo() {
+		return hasWorkToDo;
+	}
+}

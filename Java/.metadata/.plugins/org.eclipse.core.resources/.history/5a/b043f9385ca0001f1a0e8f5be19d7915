@@ -1,0 +1,11 @@
+package vom.java.inheritance;
+
+public class HourlyPaidEmployee extends Employee{
+
+	public double getHourlyPaidRate() {
+		return hourlyPaidRate;
+	}
+	
+	
+	
+}

@@ -1,0 +1,18 @@
+package vom.java.inheritance;
+
+public class Worker {
+	private String name;
+	private String birthDate;
+	protected int endDate;
+
+	public int getAge() {
+		int currentYear=2024;
+		return currentYear - Integer.parseInt(birthDate.substring(6));
+	}
+	public double collectPay() {
+		return 0.0;
+	}
+	public void terminate(String endDate) {
+		
+	}
+}

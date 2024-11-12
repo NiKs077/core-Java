@@ -1,0 +1,10 @@
+package com.java.oops;
+
+public class Student {
+//this class is for use of static and this keyword
+	int id;
+	String name;
+	String address;
+	int fees;
+	
+}

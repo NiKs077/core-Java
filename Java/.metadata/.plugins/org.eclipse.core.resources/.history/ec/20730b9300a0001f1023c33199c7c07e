@@ -1,0 +1,28 @@
+package com.java.oops.compositionchallenge;
+
+public class SmartKitchen {
+	CoffeeMaker brewMaster;
+	DishWasher dishWasher;
+	Refrigerator IceBox;
+
+	 public void addWater(){
+		System.out.println("Adding the water");
+		this.setKitchenState(true, false, false);
+	}
+	public void pourMilk(){
+		System.out.println("Pouring the milk");
+		this.setKitchenState(true, false, true);
+		
+	}
+	public void loadDishWasher(){
+		
+	}
+	public void setKitchenState(boolean hasWorkToDoForCofee, boolean hasWorkToDishWah, boolean hasWorkToDoForRefrigerator){
+	brewMaster.hasWorkToDo=hasWorkToDoForCofee;
+	dishWasher.hasWorkToDo=hasWorkToDishWah;
+	IceBox.hasWorkToDo=	hasWorkToDoForRefrigerator;
+	}
+	public void doKitchenWork(){
+		
+	}
+}

@@ -1,0 +1,13 @@
+package com.java.oops;
+
+public class StudentTest {
+
+	public static void main(String[] args) {
+		Student s1=new Student(2107144, "Nikhil Bankar", " Pune", 67552);
+		Student s2=new Student(2107145, "Abhijeet Mowade", " Yawatmal");
+		s1.college="AISSMS";
+		
+		s1.displayDetails();
+		s2.displayDetails();
+	}
+}

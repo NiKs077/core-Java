@@ -1,0 +1,6 @@
+package vom.java.inheritance;
+
+public class Employee extends Worker {
+	private int EmployeeId;
+	private int hireDate;
+}

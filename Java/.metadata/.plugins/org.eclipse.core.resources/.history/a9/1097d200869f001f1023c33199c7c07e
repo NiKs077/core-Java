@@ -1,0 +1,27 @@
+package com.java.oops;
+
+public class Student {
+//this class is for use of static and this keyword
+	static String collegeName="DYPIET";
+	
+	int id;
+	String name;
+	String address;
+	int fees;
+	public Student(int id, String name, String address) {
+		this.id= id;
+		this.name= name;
+		this.address= address;
+	}
+	public Student(int id, String name, String address, int fees) {
+		this(id,name,address);
+		this.fees= fees;
+	}
+	public void displayDetails(){
+		System.out.println(this.id + " "+ this.name + " "+ this.address + " "+ this.fees);
+	}
+	
+	
+	
+	
+}

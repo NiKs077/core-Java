@@ -1,0 +1,25 @@
+package vom.java.inheritance;
+
+public class Employee extends Worker {
+	private int EmployeeId;
+	private String hireDate;
+
+	public int getEmployeeId(){
+		return this.EmployeeId;
+	}
+	public void setHireDate(String hireDate) {
+		 this.hireDate=hireDate;
+	}
+	
+	@Override
+	public void terminate(String endDate) {
+		if(Integer.parseInt(endDate.substring(6))-Integer.parseInt(this.hireDate.substring(6))>2) {
+			System.out.println("terminated");
+		}else {
+			System.out.println("Could not terminate employee early");
+		}
+		
+		
+	}
+	
+	}

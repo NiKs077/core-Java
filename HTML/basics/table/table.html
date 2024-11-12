@@ -1,0 +1,62 @@
+<!DOCTYPE html "en-US">
+<html>
+    <head>
+        <title>Learn about tables</title>
+        <link rel="icon"  href="fav.png">
+        <style>
+            table, th, td, caption{
+                /* border-width: 1px;
+                border-style: solid;
+                border-color: black; */
+                border: 1px solid black;
+                padding: 10px;
+                border-collapse: collapse;
+            }
+            table{
+                /* its used to give space between each cell */
+                /* border-spacing: 10px; */
+            }
+            caption{
+                border-bottom: none;
+            }
+            /* tr:nth-child(even){
+                background-color: lightblue;
+            } */
+            td:nth-child(even), th:nth-child(even) {
+                background-color: lightblue;
+            }
+        </style>
+    </head>
+    <body>
+        <table>
+            <!-- caption to that servers as a heading for the entire table -->
+             <caption>Personal Details</caption>
+            <tr>
+                <!-- it will span column as 2 -->
+                <!-- <th colspan="2">Name</th> -->
+                <th>Name</th>
+                <th>lastname</th>
+                <th>email</th>
+                <th>iamge</th>
+            </tr>
+            <tr>
+                <td>Nikhil</td>
+                <td>Bankar</td>
+                <td>nikhil@gmail.com</td>
+                <td><a href="https://google.com"><img src="nikhil.jpeg" alt="nikhil Image" height="20px" width="20px"></a></td>
+            </tr>
+            <tr>
+                <td>Rahul</td>
+                <td>Kumar</td>
+                <td>rahul@gmail.com</td>
+                <td><a href="https://google.com"><img src="nikhil.jpeg" alt="nikhil Image" height="20px" width="20px"></a></td>
+            </tr>
+            <tr>
+                <td>Vitthat</td>
+                <td>Bhutkar</td>
+                <td>vitthal@gmail.com</td>
+                <td><a href="https://google.com"><img src="nikhil.jpeg" alt="nikhil Image" height="20px" width="20px"></a></td>
+            </tr>
+        </table>
+    </body>
+</html>

@@ -1,0 +1,14 @@
+package vom.java.inheritance;
+
+public class HourlyPaidEmployee extends Employee{
+	private double annualSalary;
+	private boolean isRetired;
+	
+	public double getAnnualSalary() {
+		return annualSalary;
+	}
+	public boolen getIsRetired() {
+		return isRetired;
+	}
+	
+}

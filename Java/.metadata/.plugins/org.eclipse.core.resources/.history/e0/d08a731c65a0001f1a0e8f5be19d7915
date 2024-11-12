@@ -1,0 +1,11 @@
+package vom.java.inheritance;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		Employee employee=new Employee("Nikhil","27/01/2000","27/01/2021");
+		employee.getAge();
+		employee.collectPay();
+	}
+}

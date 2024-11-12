@@ -1,0 +1,13 @@
+package com.java.basics;
+
+public class PalindromeOfAString {
+	private static void checkForPalinDrome(String str) {
+		for(int i=0; i<((int)str.length()/2); i++) {
+			System.out.println(str.charAt(i));
+		}
+	}
+	
+public static void main(String[] args) {
+	PalindromeOfAString.checkForPalinDrome("aabaa");
+}
+}

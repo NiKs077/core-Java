@@ -1,0 +1,14 @@
+package com.java.basics;
+
+
+public class ObjectClass {
+	static int nums[]=new int[5];
+	public static void main(String[] args) {
+		for(int i=1; i<5;i++) {
+			nums[i]=i;
+		}
+		int nums1[]=nums.clone();
+		System.out.println(nums.toString());
+		System.out.println(nums.hashCode() + " " + nums1.hashCode());
+}
+}

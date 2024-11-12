@@ -1,0 +1,10 @@
+package vom.java.inheritance;
+
+public class Test {
+
+	public static void main(String[] args) {
+		SalariedEmployee sal_employee=new SalariedEmployee();
+		System.out.println(sal_employee.getAge());
+		System.out.println(sal_employee.collectPay());
+	}
+}

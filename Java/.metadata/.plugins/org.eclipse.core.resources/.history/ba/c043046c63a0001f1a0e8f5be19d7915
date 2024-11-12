@@ -1,0 +1,15 @@
+package vom.java.inheritance;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		Employee employee=new Employee();
+		employee.setHireDate("27/01/2021");
+		Worker worker=new Worker("Nikhil","27/01/2000","27/01/2022");
+		employee.terminate("27/01/2022");
+		SalariedEmployee sal_employee=new SalariedEmployee();
+		System.out.println(sal_employee.collectPay());
+		System.out.println(sal_employee.retire());
+	}
+}

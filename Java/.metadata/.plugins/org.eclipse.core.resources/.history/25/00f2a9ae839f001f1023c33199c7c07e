@@ -1,0 +1,8 @@
+package com.java.ops;
+
+public class ObjectClassesIncludingStaticAndThisKeyword {
+
+	public static void main(String[] args) {
+		
+	}
+}

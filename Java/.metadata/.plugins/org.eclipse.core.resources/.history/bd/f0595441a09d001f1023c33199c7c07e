@@ -1,0 +1,26 @@
+package com.java.basics;
+
+public class WrapperClass {
+	/* Wrapper classes are used to convert primitive -> Objects
+	 * Wrapper classes are Integer, Character, Boolean, Double, Float etc
+	 * 
+	 * We are convert 
+	 * Primitive -> Object(Boxing), Object -> Primitive(Unboxing)
+	 * Primitive -> String, String -> Primitive
+	 * Object -> String, String -> Object
+	 * */
+	
+	
+	
+	public static void main(String args[]) {
+		// Primitive -> Object, Object -> Primitive
+		
+		int x=100;
+		Integer integer_x=Integer.valueOf(x);
+		int y=integer_x.intValue();
+		System.out.println(integer_x + " " + y);
+	}
+	
+	
+	
+}

@@ -1,0 +1,14 @@
+package com.java.oops;
+
+public class Student {
+//this class is for use of static and this keyword
+	static String collegeName="DYPIET";
+	
+	int id;
+	String name;
+	String address;
+	int fees;
+	
+	
+	
+}

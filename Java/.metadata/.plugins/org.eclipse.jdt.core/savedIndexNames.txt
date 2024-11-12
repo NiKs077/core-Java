@@ -1,0 +1,5 @@
+INDEX VERSION 1.134+C:\Users\banka\switch_journey\Java\.metadata\.plugins\org.eclipse.jdt.core
+3413725848.index
+646663704.index
+3662252382.index
+1865797976.index
